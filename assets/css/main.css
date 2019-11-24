@@ -76,6 +76,8 @@ input, select, textarea {
 
 	.row {
 		display: flex;
+		flex-flow: column wrap;
+  		max-height: 2500px;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -319,6 +321,8 @@ input, select, textarea {
 
 			.row {
 				display: flex;
+				flex-flow: column wrap;
+				max-height: 2000px;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -564,6 +568,8 @@ input, select, textarea {
 
 			.row {
 				display: flex;
+				flex-flow: column wrap;
+				max-height: 2000px;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -810,6 +816,8 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
+				flex-flow: column wrap;
+				max-height: 3000px;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -1055,6 +1063,8 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
+				flex-flow: column wrap;
+				max-height: 4000px;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -2193,3 +2203,4 @@ input, select, textarea {
 			}
 
 		}
+
