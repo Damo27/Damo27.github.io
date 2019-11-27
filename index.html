@@ -10,6 +10,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" href="images/logo.ico" type="image/ico">
+		<link type="image/png" rel="shortcut icon" href="images/favicon.png" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -19,11 +21,12 @@
 
 				<!-- Nav -->
 					<nav id="nav">
-						<a href="#" class="icon solid fa-id-card"><span>Home</span></a>
+						<a href="#" class="icon solid fa-id-card"><span>C-Card</span></a>
+						<a href="#cv" class="icon solid fa-user"><span>My CV</span></a>
 						<a href="#work" class="icon solid fa-folder"><span>My Projects</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
-						<a href="#paws" class="icon solid fa-paw"><span>Doggo</span></a>
 						<a href="https://twitter.com/damionjoyner3" class="icon brands fa-twitter"><span>Twitter</span></a>
+						<a href="#paws" class="icon solid fa-paw"><span>Doggo</span></a>
 					</nav>
 
 				<!-- Main -->
@@ -33,14 +36,114 @@
 							<article id="home" class="panel intro">
 								<header>
 									<h1>Damion Joyner</h1>
+									
 									<p>Aspiring Software Developer</p>
-									<p>BCIS in Application Development</p>
+									<hr>
+									<p2>Qual: BCIS in Application Development</p2>
+									<br>
+									<p2>Phone: +27 78 819 7999</p2>
+									<br>
+									<p2>Email: damionjoyner4@gmail.com<p2>
 								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+								<a href="#cv" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>See my cv</span></span>
 									<img src="images/me.jpg" alt="" />
 								</a>
 							</article>
+
+							<!-- Me -->
+							<article id="cv" class="panel">
+									<div>
+											<div class="container">
+													<div class="masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 70 }' >
+													<div class="grid-item" style="width: 30%;">
+						
+														<!-- Sidebar -->
+															<section class="box" style="background-color: #f4f4f4; border-radius: 25px; padding: 5px 5px 5px 5px;">
+																	<a href="https://github.com/Damo27" >
+																		<img src="images/favicon.png" alt="" style="max-width: 100%; max-height: 100%;"/>
+																	</a>
+																	<h3 class="icon brands fa-github" style="text-align: center;">  Damo27</h3>
+															</section>
+															
+															<section class="box" style="background-color: #f4f4f4; border-radius: 25px; padding: 5px 5px 5px 5px;">
+																<header>
+																	<h2>Education</h2>
+																</header>
+																<p>
+																	<h5>Varsity College (2019)</h5>
+																	Bachlor's of Computer and Information Science in Application Development
+																	(Graduated with Distinction)
+																</p>
+																<p>
+																	<h5>Weston Agricultural High School (2007)</h5>
+																	Matric Certificate<br>
+																	(A Agregate + Dux)
+																</p>
+																
+															</section>
+															<section class="box" style="background-color: #f4f4f4; border-radius: 25px; padding: 5px 5px 5px 5px;">
+																<header>
+																	<h3>Soft Skills</h3>
+																</header>
+																<p>
+																	Communication, Team Work, Independent, problem solving
+																</p>
+																
+															</section>
+						
+													</div>
+													<div class="grid-item" style="width: 60%;">
+						
+														<!-- Content -->
+															<section class="box post" style="background-color: #f4f4f4; border-radius: 25px; padding: 5px 5px 5px 5px; margin: 15px;">
+																<header>
+																	<h2>Skills</h2>
+																	<p>I love to learn new things. We live in a time where access to knowledge is instantaneous, and the knowledge pool is seemingly infinite.
+																		My gravitation to all things IT was a natural process as this environment is vast and never static.
+																	</p>
+																</header>
+																<h4>Technical Languages:</h4> 
+																<p> Java, C#, SQL, PL/SQL, JavaScript (CSS, HTML)</p>
+						
+																<h4>Data Technology:</h4> 
+																<p>MySQL, MS SQL server, Oracle, Google Firebase, Mongo DB</p>
+						
+																<h4>Operating System:</h4> 
+																<p>Windows, OSX, Android OS, Windows phone</p>
+						
+																<h4>Frameworks:</h4> 
+																<p>.NET, Android + Androidx, Angular</p>
+						
+																<h4>IDE:</h4> 
+																<p>Android Studio, Visual Studio, Visual Studio Code, NetBeans</p>
+						
+																<h4>Version Control:</h4> 
+																<p>Git, GitHub</p>
+						
+																<h4>Architecture Patterns:</h4> 
+																<p>N-Tier, Layered, MVC, MVVM</p>
+						
+																<h4>Design Patterns:</h4> 
+																<p>Singleton, Factory</p>
+						
+																<h4>Data Structures:</h4> 
+																<p>List(Generic and Non-generic), Stack, Queue, LinkedList, Trees, Graphs</p>
+						
+																<h4>Other Tools:</h4> 
+																<p>MS Office</p>
+															</section>
+													</div>
+													<div class="grid-item" style="width: 100%; text-align: center;">
+															<section>											
+																	<a href="content/cv.pdf" class="button large">View CV</a>
+																</section>
+													</div>
+													
+												</div>
+											</div>
+										</div>
+								</article>
 
 						<!-- Work -->
 							<article id="work" class="panel">
@@ -52,8 +155,9 @@
 									completed during my years of study, passion projects and collaboration projects.
 								</p>
 								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small" >
+										<div class="masonry" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 70 }' >
+										<!-- Day Trippa -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>Day Trippa</h3>
@@ -71,7 +175,8 @@
                                                         </footer>
                                                 </section>
 										</div>
-										<div class="col-4 col-6-medium col-12-small" >
+										<!-- AppAssessor -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>AppAssessor</h3>
@@ -88,7 +193,8 @@
                                                         </footer>
                                                 </section>
 										</div>
-										<div class="col-4 col-6-medium col-12-small" >
+										<!-- Rabbid Rabbits -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>Rabbid Rabbits</h3>
@@ -108,7 +214,8 @@
                                                         </footer>
                                                 </section>
 										</div>
-										<div class="col-4 col-6-medium col-12-small" >
+										<!-- FlabbyBirdTheTird -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>FlappyBirdTheTird</h3>
@@ -126,7 +233,8 @@
                                                         </footer>
                                                 </section>
 										</div>
-										<div class="col-4 col-6-medium col-12-small" >
+										<!-- ABC_Backend -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>ABC_backend</h3>
@@ -143,19 +251,77 @@
                                                         </footer>
                                                 </section>
 										</div>
-										<div class="col-4 col-6-medium col-12-small" >
+										<!-- ACME Inc -->
+										<div class="grid-item" style="width: 30%;">
 												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
                                                         <header style="text-align: center;">
                                                             <h3>ACME Inc</h3>
 														</header>
-														<a href="https://github.com/Damo27/ABC_backend" class="image featured"><img src="images/acme.png" alt="acme.png" /></a>
+														<a href="https://github.com/Damo27/ACME-WebApp" class="image featured"><img src="images/acme.png" alt="acme.png" /></a>
                                                         <p>eCommerce WebApp<br/>
 															Web based eCommerce application for "ACME Inc", allows users perform all eCommerce activities, also acts as an Admin portal for users with authorisation.
 															<br/>
                                                             Developed in C# using Visual Studio, uses a MVC architecture and connects to a local SQL relational database .</p>
                                                         <footer>
                                                             <ul class="actions" style="width: 100%;">
-																	<li style="width: 45%;"><a href="https://github.com/Damo27/ABC_backend" class="icon brands fa-github">GitHub</a> </li>
+																	<li style="width: 45%;"><a href="https://github.com/Damo27/ACME-WebApp" class="icon brands fa-github">GitHub</a> </li>
+                                                            </ul>
+                                                        </footer>
+                                                </section>
+										</div>
+										<!-- Portfolio -->
+										<div class="grid-item" style="width: 30%;">
+												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
+                                                        <header style="text-align: center;">
+                                                            <h3>This Portfolio</h3>
+														</header>
+														<a href="https://github.com/Damo27/Damo27.github.io" class="image featured"><img src="images/portfolio.PNG" alt="acme.png" /></a>
+                                                        <p>GitHub Pages Website<br/>
+															Single Page website showing off my stuff. Acts as a single location for potential employers to find relevant information about me. 
+															Also has a working contact form.
+															<br/>
+                                                            Developed from an HTML5 template configured to support my needs. </p>
+                                                        <footer>
+                                                            <ul class="actions" style="width: 100%;">
+																	<li style="width: 45%;"><a href="https://github.com/Damo27/Damo27.github.io" class="icon brands fa-github">GitHub</a> </li>
+                                                            </ul>
+                                                        </footer>
+                                                </section>
+										</div>
+										<!-- MonkeyPuzz WinForms -->
+										<div class="grid-item" style="width: 30%;">
+												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
+                                                        <header style="text-align: center;">
+                                                            <h3>MonkeyPuzzle Maker(WinForms)</h3>
+														</header>
+														<a href="https://github.com/Damo27/MonkeyPuzzleMaker2.0" class="image featured"><img src="images/monkeypuzz_winforms.png" alt="acme.png" /></a>
+                                                        <p>Desktop Application<br/>
+															Single Page website showing off my stuff. Acts as a single location for potential employers to find relevant information about me. 
+															Also has a working contact form.
+															<br/>
+                                                            Developed from an HTML5 template configured to support my needs. </p>
+                                                        <footer>
+                                                            <ul class="actions" style="width: 100%;">
+																	<li style="width: 45%;"><a href="https://github.com/Damo27/MonkeyPuzzleMaker2.0" class="icon brands fa-github">GitHub</a> </li>
+                                                            </ul>
+                                                        </footer>
+                                                </section>
+										</div>
+										<!-- MonkeyPuzz WPF -->
+										<div class="grid-item" style="width: 30%;">
+												<section class="box" style="background-color: #f4f4f4; border-radius: 25px;">   
+                                                        <header style="text-align: center;">
+                                                            <h3>MonkeyPuzzle Maker(WPF)</h3>
+														</header>
+														<a href="https://github.com/Damo27/MonkeyPuzzleWPF" class="image featured"><img src="images/monkeypuzz_wpf.png" alt="acme.png" /></a>
+                                                        <p>Desktop Application<br/>
+															Single Page website showing off my stuff. Acts as a single location for potential employers to find relevant information about me. 
+															Also has a working contact form.
+															<br/>
+                                                            Developed from an HTML5 template configured to support my needs. </p>
+                                                        <footer>
+                                                            <ul class="actions" style="width: 100%;">
+																	<li style="width: 45%;"><a href="https://github.com/Damo27/MonkeyPuzzleWPF" class="icon brands fa-github">GitHub</a> </li>
                                                             </ul>
                                                         </footer>
                                                 </section>
@@ -192,6 +358,7 @@
 								</form>
 							</article>
 
+							<!-- Doggo -->
 							<article id="paws" class="panel">
 								
 									<h3>“To his dog, every man is Napoleon; hence the constant popularity of dogs.”</h3>
@@ -216,6 +383,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/masonry.pkgd.min.js"></script>
 
 	</body>
 </html>
