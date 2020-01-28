@@ -77,6 +77,7 @@ input, select, textarea {
 	.row {
 		display: flex;
 		flex-flow: column wrap;
+		max-height: 3500px;
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
@@ -321,6 +322,7 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-flow: column wrap;
+				max-height: 3000px;
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -568,6 +570,7 @@ input, select, textarea {
 				display: flex;
 				flex-flow: column wrap;
 				flex-wrap: wrap;
+				max-height: 2500px;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -813,6 +816,7 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
+				max-height: 3500px;
 				flex-flow: column wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1059,6 +1063,7 @@ input, select, textarea {
 			.row {
 				display: flex;
 				flex-wrap: wrap;
+				max-height: 6000px;
 				flex-flow: column wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -1313,7 +1318,6 @@ input, select, textarea {
 	body {
 		background-image: url('https://media.giphy.com/media/9tx0gy37p7oXu/giphy.gif');
     	background-size: cover;
-		/* background-image: url("images/overlay.png"), url("images/bg.jpg"); */
 		background-repeat: repeat, no-repeat;
 		/* background-size: auto, 100% 100%; */
 		background-attachment: fixed;
@@ -2205,10 +2209,14 @@ input, select, textarea {
 
 		}
 
-		.masonry {
+		.grid {
 			display: grid;
-			grid-template-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 2fr;
+			grid-template-rows: 10fr 1fr;
 			column-gap: 10px;
   			row-gap: 1em;
 		}
+
+
+
 
